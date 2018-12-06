@@ -32,8 +32,7 @@ int getArabNumber(char roman);
 
 int main() {
     string input;
-    while (true) {
-        cin >> input;
+    while (getline(cin, input) && input != "") {
         cout << convertArabToRoman(input) << endl;
     }
     return 0;
