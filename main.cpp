@@ -6,7 +6,7 @@
 
  But : 
 
- Remarque(s) :
+ Remarque(s) : Les valeurs telles que "2.5" ou "8abc" sont arrondies/tronquées puis traîtées correctement
 
  Compilateur : g++ 6.3.0
  --------------------------- */
